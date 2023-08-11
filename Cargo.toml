@@ -1,0 +1,11 @@
+[package]
+name = "flaggy"
+version = "0.0.1"
+edition = "2021"
+
+
+[dependencies]
+clap = { version = "4.3", features = ["derive"] }
+itertools = "0.11.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9.25"

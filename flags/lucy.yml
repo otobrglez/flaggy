@@ -1,0 +1,9 @@
+flags:
+  ENV:
+    - staging
+    - production
+    - development
+  FLAG_A: "a"
+  FLAG_B: [ b,c ]
+  FLAG_C: "https://epic.blog"
+  FLAG_D: [ true, false ]
